@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+ }
+    
+.header {
+  background:linear-gradient(90deg, rgba(242,195,53,1) 14%, rgba(242,158,56,1) 35%, rgba(242,113,39,1) 62%, rgba(242,69,53,1) 93%);
+  padding: 8px;
+  text-align: center;
+ }
+      
+
+.topnav {
+    overflow: hidden;
+     background-color: #0d0d0d;
+ }
+      
+.topnav a {
+    font-family: "Zilla Slab", serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+      
+ .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+.Main_body{
+    width: 100%;
+    height: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ footer {
+    background-color: #0d0d0d;
+    text-align: center;
+    color: white;
+    bottom: 100%;
+  }
+
+  .ft1{
+    width: 8%;
+    height: 70px;
+    background-color: #0d0d0d;
+    float: left;
+    padding: 10px;
+  }
+
+  .ft2{
+    width: 92%;
+    height: 70px;
+    background-color: #0d0d0d;
+    float: right;
+    padding: 8px;
+   }
+
+  .ft2-a{
+    color: #ddd;
+  }
+  
+  .ft2-a:visited {
+    color: rgb(228, 228, 228);
+  }
+  
+  .ft2-a:hover {
+    color: rgb(167, 167, 167);
+  }
+  
+  .ft2-a:active {
+    color: blue;
+  }
+
+  #know_us{
+float: right;
+  }
+
+  h1 {
+    font-family: "Staatliches", sans-serif;
+    font-size: 80px;
+    font-weight: 500
+   }
+
+   h2 {
+    font-family: "Zilla Slab", serif;
+    font-size: 30px;
+   }  
+
+   p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+   }
+
+ #h1tx {
+    font-family: "Staatliches", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+   }
+
+.Small_text{
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+  
