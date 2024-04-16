@@ -5,8 +5,6 @@
   
   body {
     margin: 0;
-    font-size: 1rem;
-    text-align: justify;
  }
     
 .header {
@@ -22,7 +20,7 @@
  }
       
 .topnav a {
-  font-family: "Zilla Slab", serif;
+    font-family: "Zilla Slab", serif;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -101,6 +99,12 @@ float: right;
     font-size: 20px;
    }
 
+  p2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+
  #h1tx {
     font-family: "Staatliches", sans-serif;
     font-size: 80px;
@@ -110,4 +114,8 @@ float: right;
 .Small_text{
   font-family: "Poppins", sans-serif;
   font-size: 10px;
+}
+  
+.Info{
+  display: flexbox;
 }
