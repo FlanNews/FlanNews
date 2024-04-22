@@ -13,12 +13,14 @@
   background:linear-gradient(90deg, rgba(242,195,53,1) 14%, rgba(242,158,56,1) 35%, rgba(242,113,39,1) 62%, rgba(242,69,53,1) 93%);
   padding: 8px;
   text-align: center;
+  position: relative;
  }
       
 
 .topnav {
     overflow: hidden;
-     background-color: #0d0d0d;
+    background-color: #0d0d0d;
+    z-index: 1;
  }
       
 .topnav a {
@@ -42,6 +44,11 @@
     padding-right: 50px;
 }
 
+.Logo {
+  height: 427px;
+  width: auto;
+}
+
  footer {
     background-color: #0d0d0d;
     text-align: center;
@@ -61,8 +68,8 @@
     width: 92%;
     height: 70px;
     background-color: #0d0d0d;
-    float: right;
     padding: 8px;
+    left: 42%;
    }
 
   .ft2-a{
@@ -102,9 +109,13 @@ float: right;
    }
 
  #h1tx {
-    font-family: "Staatliches", sans-serif;
-    font-size: 80px;
-    font-weight: 500;
+  font-family: "Staatliches", sans-serif;
+  font-size: 40px;
+  color: #0d0d0d;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
    }
 
 .Small_text{

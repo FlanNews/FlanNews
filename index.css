@@ -6,19 +6,20 @@ body {
   margin: 0;
   font-size: 1rem;
   text-align: justify;
-  overflow-x: hidden;
 }
   
 .header {
   background: linear-gradient(90deg, rgba(242,195,53,1) 14%, rgba(242,158,56,1) 35%, rgba(242,113,39,1) 62%, rgba(242,69,53,1) 93%);
-  padding: 8px;
+  padding: 2%;
   text-align: center;
+  position: relative;
 }
     
 
 .topnav {
   overflow: hidden;
   background-color: #0d0d0d;
+  z-index: 1;
 }
     
 .topnav a {
@@ -41,7 +42,6 @@ body {
 }
 
 .Main_body {
-  width: 100%;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -65,9 +65,8 @@ footer {
   width: 92%;
   height: 70px;
   background-color: #0d0d0d;
-  float: right;
   padding: 8px;
-  box-sizing: border-box;
+  left: 42%;
 }
 
 .ft2-a {
@@ -111,8 +110,16 @@ p2 {
 
 #h1tx {
   font-family: "Staatliches", sans-serif;
-  font-size: 80px;
-  font-weight: 500;
+  font-size: 40px;
+  color: #0d0d0d;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.FlanNewsLogo {
+  size: 10px;
 }
 
 .Small_text {
@@ -147,101 +154,103 @@ p2 {
 }
 
 .direct_access_links_bar a:visited {
-  color: rgb(61, 61, 61);
+  color:red;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration:rgb(0, 0, 0);
 }
-
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
-  gap: 0px; /* Gap between grid items */
-  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px;
+  height: 46.875rem;
 }
 
 .item-1 {
-   border-style: solid;
-   border-width: 0.2px;
-   width: 700px;
-   height: 500px;
-   padding: 20px;
-   display: flex;
+  border-style: solid;
+  border-width: 0.2px;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
   flex-direction: row;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .item-2 {
   border-top-style: solid;
   border-bottom-style: solid;
   border-width: 0.2px;
-    width: 400px;
-    height: 500px;
-    display: flex;
-    padding: 15px;
-    padding-top: 0%;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  padding: 15px;
+  padding-top: 0%;
 }
 
 .item-3 {
   border-style: solid;
   border-width: 0.2px;
-    width: 330px;
-    height: 500px;
-   }
+  width: 330px;
+  height: 500px;
+}
 
-   .item-4 {
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-width: 0.2px;
-    width: 700px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-   }
+.item-4 {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 0.2px;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
 
-   .item-5 {
-    border-bottom-style: solid;
-    border-width: 0.2px;
-    width: 400px;
-    height: 200px;
-   }
+.item-5 {
+  border-bottom-style: solid;
+  border-width: 0.2px;
+  width: 400px;
+  height: 200px;
+}
 
-   .item-6 {
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-width: 0.2px;
-    width: 330px;
-    height: 200px;
-    padding: 10px;
-   }
+.item-6 {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 0.2px;
+  width: 330px;
+  height: 200px;
+  padding: 10px;
+}
 
-   .Img1{
-    width: 370px;
-    margin-right: 20px;
-   }
-  
+.Img1 {
+  width: 370px;
+  margin-right: 20px;
+}
+
 .tachna {
   display: flexbox;
   line-height: 1.3;
   text-align: left;
 }
 
-.tachna p2{
-  text-align: center; 
-
+.tachna p2 {
+  text-align: center;
 }
 
 .tachna2 {
   display: flexbox;
 }
 
-.tachna2 p{
- padding-right: 15px;
- line-height: 1.3;
- text-align: left;
+.tachna2 p {
+  padding-right: 15px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.tachna2 h2 {
+  padding-right: 20px;
 }
 
 .tachna3 {
@@ -250,15 +259,15 @@ p2 {
   padding-top: 0%;
 }
 
-.tachna3 img{
+.tachna3 img {
   width: 300px;
   height: 208px;
 }
 
-.tachna3 p{
- padding-right: 15px;
- line-height: 1.3;
- text-align: left;
+.tachna3 p {
+  padding-right: 15px;
+  line-height: 1.3;
+  text-align: left;
 }
 
 .tachna4 {
@@ -272,7 +281,8 @@ p2 {
   padding-right: 15px;
   line-height: 1.3;
   text-align: left;
- }
+}
+
 
 .Carousel {
   max-width: fit-content;
@@ -317,7 +327,8 @@ p2 {
 }
 
  .CarouselImg {
-width: 100%;
+width: 800px;
+height: 470px
  }
 
 .CarouselText {
@@ -330,9 +341,7 @@ width: 100%;
   text-align: center;
 }
 
- .CarouselProgress {
-
- }
+ .CarouselProgress 
 
  .ProgressDot {
   cursor: pointer;
@@ -348,3 +357,31 @@ width: 100%;
  .Active, .ProgressDot:hover {
   background-color:#ddd;
  }
+
+/* Estilos para la ventana emergente */
+.ventana-emergente {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: none; /* Por defecto, la ventana emergente está oculta */
+}
+
+/* Estilos para el fondo opaco */
+.fondo-opaco {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.865); /* Opacidad del fondo */
+  z-index: 9998; /* Por debajo de la ventana emergente */
+  display: none; /* Por defecto, el fondo opaco está oculto */
+}
+
+
