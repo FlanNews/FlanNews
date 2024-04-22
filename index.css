@@ -1,41 +1,43 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
   font-size: 1rem;
   text-align: justify;
+  overflow-x: hidden;
 }
   
 .header {
   background: linear-gradient(90deg, rgba(242,195,53,1) 14%, rgba(242,158,56,1) 35%, rgba(242,113,39,1) 62%, rgba(242,69,53,1) 93%);
-  padding: 2%;
+  padding: 8px;
   text-align: center;
   position: relative;
 }
     
 
 .topnav {
-  overflow: hidden;
-  background-color: #0d0d0d;
-  z-index: 1;
-}
-    
+    overflow: hidden;
+    background-color: #0d0d0d;
+    z-index: 1;
+ }
+      
 .topnav a {
-  font-family: "Zilla Slab", serif;
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-    
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    font-family: "Zilla Slab", serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+      
+ .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+ }
 
 #leftTn {
   float: right;
@@ -44,6 +46,7 @@ body {
 .Main_body {
   padding-left: 50px;
   padding-right: 50px;
+  overflow-x: hidden;
 }
 
 footer {
@@ -131,6 +134,12 @@ p2 {
   position: fixed;
   top: 0;
   width: 100%
+}
+
+.Intro {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
 }
 
 .direct_access_links_bar{
@@ -315,11 +324,19 @@ p2 {
 }
 
 .Previous:hover, .Next:hover {
-  background-color: #000000cc
+  background-color: #858585cc
 }
 
 .CarouselNumber {
-  color: #0d0d0d;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.CarouselNumber1 {
+  color:#0d0d0d;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -332,16 +349,19 @@ height: 470px
  }
 
 .CarouselText {
-  color: #0d0d0d;
+  color: #ffffff;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-weight: 500;
 }
 
- .CarouselProgress 
+ .CarouselProgress {
+  text-align: center;
+ }
 
  .ProgressDot {
   cursor: pointer;
@@ -384,4 +404,34 @@ height: 470px
   display: none; /* Por defecto, el fondo opaco está oculto */
 }
 
+.grid-container a {
+  color: #000000;
+}
 
+.grid-container a:visited {
+  color: rgb(56, 56, 56);
+}
+
+.grid-container a:hover {
+  color: rgb(167, 167, 167);
+}
+
+.grid-container a:active {
+  color: rgb(255, 0, 0);
+}
+
+.CarouselSlide a {
+  color: #FFFFFF;
+}
+
+.CarouselSlide a:visited {
+  color: rgb(156, 146, 146);
+}
+
+.CarouselSlide a:hover {
+  color: rgb(167, 167, 167);
+}
+
+.CarouselSlide a:active {
+  color: rgb(255, 0, 0);
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Flan News, your preferred source of news.">
+    <meta name="description" content="Flan News, your preferred source of news.">
     <meta name="keywords" content="Sports, Entertainment and Politics news">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="Img/flan_news_icon.png" >
@@ -46,7 +46,7 @@
       <div class="grid-container">
         <div class="grid-item item-1">
             <div class="tachna">
-                <a href=""><h2>Poor Manchester United survive Coventry City onslaught to reach final</h2></a>
+                <a href="Sites/Sports/Manchester-United-survive-Coventry-City.html"><h2>Poor Manchester United survive Coventry City onslaught to reach final</h2></a>
                 <img class="Img1" src="/Img/17137207515984.webp" alt="Manchester United by Alastair Grant">
                 <p2>Manchester United by Alastair Grant</p2>
             </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="grid-item item-2">
             <div class="tachna2">
-                <a href=""><h2>Thunder get a victory over Pelicans</h2></a>
+                <a href="Sites/Sports/Thunder-edge-past-Pelicans-in-heart-stopping-game.html"><h2>Thunder get a victory over Pelicans</h2></a>
                 <img class="Img1" src="/Img/17137602989160.webp" alt="Shai Gilgeous-Alexander by Herbert Jones">
                 <p2>Shai Gilgeous-Alexander by Herbert Jones</p2>
                 <p class="textpd1">Gilgeous-Alexander's 28 points secure Thunder's 94-92 victory; Pelicans miss Zion.</p>
@@ -95,19 +95,19 @@
         <div class="CarouselSlide">
          <div class="CarouselNumber">1 / 3</div>
          <img src="Img/17137619072834.webp" alt="Antonio Brown by Adam Hunger" class="CarouselImg">
-         <div class="CarouselText">Noticia 1</div>
+         <div class="CarouselText"><a href="Sites/Sports/Antonio-Brown-launches-new-podcast-amid-controversy.html">Antonio Brown launches new podcast amid controversial social media antics</a></div>
         </div>
 
         <div class="CarouselSlide">
-            <div class="CarouselNumber">2 / 3</div>
+            <div class="CarouselNumber1">2 / 3</div>
             <img src="Img/Meg_Bennett_GettyImages-1240008613_1280.webp" alt="Meg Bennett by CBS" class="CarouselImg">
-            <div class="CarouselText">Noticia 2</div>
+            <div class="CarouselText"><a href="Sites/Entertainment/meg-bennett-young-and-the-restless-and-general-hospital-actress-and-writer-dead-at-75.html">Meg Bennett, 'Young and the Restless' and 'General Hospital' Actress and Writer, Dead at 75</a></div>
         </div>
 
         <div class="CarouselSlide">
             <div class="CarouselNumber">3 / 3</div>
             <img src="Img/bc56ff7a-5e96-468d-93c1-418068e7e891.webp" alt="Sleepy Joe speaking during a campaign in Pennsylvania by Paul Weaver" class="CarouselImg">
-            <div class="CarouselText">Noticia 3</div>
+            <div class="CarouselText"><a href="Sites/Politics/abortion-democrats-freedom-messaging.htmls">Sleepy Joe speaking during a campaign in Pennsylvania by Paul Weaver</a></div>
         </div>
 
           <a class="Previous" onclick="plusSlides(-1)">&#10094</a>
@@ -116,10 +116,16 @@
     </div>
 
     <div class="CarouselProgress">
-        <span class="ProgressDot" onclick="ThisSlide"></span>
+        <span class="ProgressDot" onclick="currentSlide(1)"></span>
+        <span class="ProgressDot" onclick="currentSlide(2)"></span>
+        <span class="ProgressDot" onclick="currentSlide(3)"></span>
     </div>
 
     <div id="fondoOpaco" class="fondo-opaco"></div>
+
+    <div class="Intro">
+        <p>Welcome to Flan News, your hub for sports, entertainment, and political updates. Stay informed with our timely articles and exclusive insights. Explore the world's pulse in one dynamic platform.</p>
+    </div>
 
   <!-- Ventana emergente -->
   <div id="ventanaEmergente" class="ventana-emergente">

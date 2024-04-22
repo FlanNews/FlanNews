@@ -15,11 +15,11 @@ function sataAndagi() {
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function plusSlides(n) {  // Next/previous controls
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide(n) {  // Thumbnail image controls
   showSlides(slideIndex = n);
 }
 
