@@ -88,6 +88,22 @@
 float: right;
   }
 
+  .grid-container a {
+    color: #000000;
+  }
+  
+  .grid-container a:visited {
+    color: rgb(56, 56, 56);
+  }
+  
+  .grid-container a:hover {
+    color: rgb(167, 167, 167);
+  }
+  
+  .grid-container a:active {
+    color: rgb(255, 0, 0);
+  }
+
   h1 {
     font-family: "Staatliches", sans-serif;
     font-size: 80px;
@@ -98,6 +114,7 @@ float: right;
     font-family: "Zilla Slab", serif;
     font-size: 30px;
     line-height: 1.3;
+    z-index: 1;
    }  
 
    p{
@@ -245,20 +262,4 @@ float: right;
   
   .text {
     text-align: justify;
-  }
-
-  .grid-container a {
-    color: #000000;
-  }
-  
-  .grid-container a:visited {
-    color: rgb(56, 56, 56);
-  }
-  
-  .grid-container a:hover {
-    color: rgb(167, 167, 167);
-  }
-  
-  .grid-container a:active {
-    color: rgb(255, 0, 0);
   }
