@@ -6,7 +6,7 @@
     <meta name="description" content="Welcome to Flan News, your preferred source of news.">
     <meta name="keywords" content="Sports, Entertainment and Politics news">
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="Img/flan_news_2.png" >
+    <link rel="icon" href="Img/flan_news_icon.png" >
     <title>Flan News</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
             <h1 id="h1tx">Flan News</h1>
         </div>
       
-        <nav class="topnav" id="myHeader"> <!-- Menú del sitio -->
+        <nav class="topnav" id="topnav1"> <!-- Menú del sitio -->
             <a href="Sites/Politics/Politics.html">Politics</a>
             <a href="Sites/Entertainment/Entertainment.html">Entertainment</a>
             <a href="Sites/Sports/Sports.html">Sports</a>
@@ -97,14 +97,43 @@
 
     </div>
 
+    <div class="Carousel">
+
+        <div class="CarouselSlide">
+         <div class="CarouselNumber">1 / 3</div>
+         <img src="Img/450x300.jpg" alt="" class="CarouselImg">
+         <div class="CarouselText">Noticia 1</div>
+        </div>
+
+        <div class="CarouselSlide">
+            <div class="CarouselNumber">2 / 3</div>
+            <img src="Img/450x300.jpg" alt="" class="CarouselImg">
+            <div class="CarouselText">Noticia 2</div>
+        </div>
+
+        <div class="CarouselSlide">
+            <div class="CarouselNumber">3 / 3</div>
+            <img src="Img/450x300.jpg" alt="" class="CarouselImg">
+            <div class="CarouselText">Noticia 3</div>
+        </div>
+
+          <a class="Previous" onclick="PrevSlide">a</a>
+          <a class="Next" onclick="NextSlide">a</a>
+
+    </div>
+
+    <div class="CarouselProgress">
+        <span class="ProgressDot" onclick="ThisSlide"></span>
+    </div>
+
     <footer>
         <div class="ft1">
-            <img src="/Img/flan_news_2.png" height="50px" width="92px" alt="Flan News Logo">
+            <a href="https://flannews.github.io"><img src="/Img/flan_news_2.png" height="50px" width="92px" alt="Flan News Logo"></a>
         </div>
   
         <div class="ft2">
-            <a class="ft2-a" href="/Sites/Extras/Terms and conditions.html">Terms and conditions</a>
-            <p class="Small_text">© 2002 - 2024 Flan news.com,Inc. or its affiliates.</p>
+            <a class="ft2-a" href="Sites/TermsAndConditions/TermsAndConditions.html">Terms and Conditions</a>
+            <p class="Small_text">© 2002 - 2024 FlanNews.github.io, Inc. or its affiliates.</p>
         </div>
     </footer>
 
